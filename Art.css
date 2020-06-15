@@ -1,0 +1,151 @@
+/*CSS for Art*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*.................................................................................................
+.....................................Header Section................................................
+.................................................................................................*/
+
+
+.header-bar{
+    width: 100%;
+    height: 100px;
+    /*background-image: linear-gradient(to right, #000000, #2e2e2e, #585858, #878787, #b9b9b9, #b9b9b9, #b9b9b9, #b9b9b9, #878787, #585858, #2e2e2e, #000000);*/
+    background-color: #bdd4e7;
+background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+
+}
+
+.logo{
+    padding-top: 10px;
+    padding-left: 15%;
+    height: 80px;
+    width: 110px;
+}
+
+.heding{
+    color: #000;
+    float: right;
+    padding-right: 60%;
+    padding-top: 15px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;    
+    text-decoration: none;
+    
+}
+
+/*.................................................................................................
+.....................................Body Section..................................................
+.................................................................................................*/
+
+.main-body{
+    width: 100%;
+    height: 7200px;
+    background-color: #abe9cd;
+    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+    
+}
+
+.body-img{
+    width: 75%;
+    height: 800px;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+    
+}
+
+.img{
+    width: 350px;
+    height: 350px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+.wrapper {
+        max-width: 1200px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .container {
+        width: 45%;
+        margin: 20px; 
+        height: 420px;
+        border: 3px solid #000;
+        overflow: hidden;
+        position: relative;
+        float: left;
+        display: inline-block;
+        cursor: pointer;
+      }
+      .child {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+      }
+      
+      .container:hover .child,
+      .container:focus .child {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+      }
+      .container:hover .child:before,
+      .container:focus .child:before {
+        display: block;
+      }
+    
+      .child:before {
+        content: "";
+        display: none;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      @media screen and (max-width: 960px) {
+        .container {
+          width: 100%;
+          margin: 20px 0;
+        }
+        .wrapper {
+          padding: 20px;
+        }
+      }
+
+/*-------------------------------------------------------------------------------------------*/
+
+.footer{
+    background: #000;
+    width: 100%;
+    height: 50px;
+}
+
+.copyright{
+    display: inline-block;
+    color: #fff;
+    font-family: Georgia, Times, serif;
+    padding-top: 10px;
+    padding-left: 200px;
+    
+}
+
+
+
+
+
+
+
+
